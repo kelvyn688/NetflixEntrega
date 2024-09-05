@@ -1,0 +1,77 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background: url("https://authors.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg");
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img.nav-logo-login {
+  width: 10rem;
+  margin: 1rem;
+  position: fixed;
+  left: 20px;
+  object-fit: contain;
+}
+
+.login-container form {
+  width: 28vw;
+  height: 45vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.747);
+  border-radius: 25px;
+}
+
+.login-container form h1 {
+  color: aliceblue;
+  margin: 3rem auto 3rem 5rem;
+}
+
+.login-container form input {
+  width: 60%;
+  height: 3rem;
+
+  padding: 0.5rem;
+
+  border-radius: 5px;
+
+  margin-bottom: 1rem;
+
+  background-color: grey;
+  color: aliceblue;
+}
+
+.login-container form input::placeholder {
+  color: aliceblue;
+}
+
+.login-container form button {
+  cursor: pointer;
+
+  width: 60%;
+  height: 3rem;
+
+  border-radius: 5px;
+
+  margin: 2rem 0;
+
+  background-color: red;
+  color: aliceblue;
+  border: none;
+
+  transition: 0.3s;
+
+  font-weight: bold;
+}
+
+.login-container form button:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}

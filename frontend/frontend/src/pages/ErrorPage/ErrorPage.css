@@ -1,0 +1,28 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  margin: 35vh 0;
+}
+
+.error-container h1 {
+  color: aliceblue;
+  margin-bottom: 2rem;
+}
+
+.error-container h3 {
+  color: aliceblue;
+  margin-bottom: 1rem;
+}
+
+.error-container p {
+  cursor: pointer;
+  color: red;
+  font-style: italic;
+}
+
+.error-container p:hover {
+  color: white;
+}
